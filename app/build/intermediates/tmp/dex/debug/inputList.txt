@@ -1,0 +1,5 @@
+/home/maurizio/.androidStudioProjects/EasyBus/app/build/intermediates/classes/debug
+/home/maurizio/.androidStudioProjects/EasyBus/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8459357ae173366d6c58779520a49765ca6e883c.jar
+/home/maurizio/.androidStudioProjects/EasyBus/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-0081430ec09b73b444b31285c510820ddf239287.jar
+/home/maurizio/.androidStudioProjects/EasyBus/app/build/intermediates/pre-dexed/debug/classes-0f3f1563a772c4d9d6a968e5cad8427d753f8adc.jar
+/home/maurizio/.androidStudioProjects/EasyBus/app/build/intermediates/pre-dexed/debug/classes-e7ed6ee652dbc0c6251dd42d5878b0b052728a47.jar

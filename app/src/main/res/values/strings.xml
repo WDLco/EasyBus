@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Impostazioni</string>
+    <string name="app_name">EasyBus</string>
+    <string name="labelPartenza">Partenza</string>
+    <string name="hintPartenza">Inserisci partenza</string>
+    <string name="labelArrivo">Arrivo</string>
+    <string name="hintArrivo">Inserisci arrivo</string>
+    <string name="labelData">Data</string>
+    <string name="buttonData">Imposta data</string>
+    <string name="labelOra">Ora</string>
+    <string name="buttonOra">Imposta ora</string>
+    <string name="labelMobRidotta">Mobilità ridotta</string>
+    <string name="buttonRicerca">CERCA PERCORSO</string>
+    <string name="titoloActivityRisultati">Risultati</string>
+    <string name="login">Effettua il login</string>
+    <string name="logout">Effettua il logout</string>
+    <string name="myaccount">Il mio profilo</string>
+    <string name="account">Account</string>
+    <string name="titoloActivityAccount">Account</string>
+    <string name="titoloActivityLogin">Login</string>
+    <string name="labelUsername">Username</string>
+    <string name="labelPassword">Password</string>
+    <string name="hintUsername">Inserisci username</string>
+    <string name="hintPassword">Inserisci password</string>
+    <string name="buttonLogin">LOGIN</string>
+
+</resources>

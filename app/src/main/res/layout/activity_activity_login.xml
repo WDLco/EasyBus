@@ -1,0 +1,88 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityRicerca"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:background="@color/actionBarColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <TableRow android:paddingBottom="10dp"
+                android:paddingTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/labelUsername"
+                    android:paddingRight="15dp" />
+
+                <EditText
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUsername"
+                    android:textColorHint="#f39d9d9d"
+                    android:hint="@string/hintUsername"
+                    android:singleLine="true"
+                    android:shadowColor="@android:color/black"/>
+            </TableRow>
+
+            <TableRow android:paddingBottom="10dp"
+                android:layout_marginBottom="40dp"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/labelPassword"
+                    android:paddingRight="15dp" />
+
+                <EditText
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtPassword"
+                    android:inputType="textPassword"
+                    android:textColorHint="#f39d9d9d"
+                    android:hint="@string/hintPassword"
+                    android:singleLine="true"
+                    android:shadowColor="@android:color/black"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_width="fill_parent">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonLogin"
+                    android:id="@+id/buttonLogin"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_span="2"
+                    android:singleLine="false"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@drawable/corners_button"
+                    android:textColor="@color/text_button_disabled"/>
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

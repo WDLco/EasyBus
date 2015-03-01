@@ -1,0 +1,63 @@
+<resources>
+    <color name="actionBarColor">#009688</color>
+    <color name="buttonNormal">#009688</color>
+    <color name="buttonPressed">#005951</color>
+    <color name="buttonDisabled">#009688</color>
+    <color name="textButtonDisabled">#A8A8A8</color>
+
+    <!-- STILE ACTIVITY RICERCA -->
+    <style name="ThemeRicerca" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/ThemeRicerca.ActionBar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+    <style name="ThemeRicerca.ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/actionBarColor</item>
+        <item name="displayOptions">showTitle</item>
+        <item name="titleTextStyle">@style/ThemeRicerca.TitleText</item>
+    </style>
+
+    <style name="ThemeRicerca.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/abc_text_size_large_material</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- STILE ACTIVITY RISULTATI -->
+    <style name="ThemeRisultati" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ThemeRisultati.ActionBar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+    <style name="ThemeRisultati.ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/actionBarColor</item>
+        <item name="displayOptions">showHome|showTitle</item>
+    </style>
+
+    <!-- STILE ACTIVITY ACCOUNT -->
+    <style name="ThemeAccount" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ThemeRisultati.ActionBar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+    <style name="ThemeAccount.ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/actionBarColor</item>
+        <item name="displayOptions">showHome|showTitle</item>
+    </style>
+
+    <!-- STILE ACTIVITY LOGIN -->
+    <style name="ThemeLogin" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ThemeRisultati.ActionBar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+    <style name="ThemeLogin.ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/actionBarColor</item>
+        <item name="displayOptions">showHome|showTitle</item>
+    </style>
+
+</resources>
